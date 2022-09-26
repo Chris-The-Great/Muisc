@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp">
+
+        <ImageView
+            android:id="@+id/artWork"
+            android:layout_width="126dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/collectionName"
+            android:text="Name"
+            android:layout_width="264dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="0dp" />
+
+
+        <TextView
+            android:id="@+id/artistName"
+            android:text="Artist Name"
+            android:layout_width="264dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="0dp" />
+
+        <TextView
+            android:id="@+id/trackPrice"
+            android:text="TrackPrice"
+            android:layout_width="264dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="114dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp" />
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
